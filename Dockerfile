@@ -29,3 +29,4 @@ RUN cabal update && cabal install pandoc-${PANDOC_VERSION} pandoc-citeproc pando
 # install nodejs
 RUN curl -sL https://deb.nodesource.com/setup_${NODE_MAJOR_VERSION}.x | bash -
 RUN apt-get install -y nodejs
+RUN apt-get install -y make 
