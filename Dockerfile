@@ -1,4 +1,4 @@
-FROM haskell:8.2
+FROM haskell:8.2.2
 
 MAINTAINER pablodecm <pablodecm@gmail.com>
 
